@@ -1,0 +1,30 @@
+﻿CREATE TABLE datatb(
+	dataId INTEGER PRIMARY KEY,
+	userId INTEGER, 
+	accY TEXT, 
+	kaisu INTEGER,
+	practiceTime INTEGER,
+	power INTEGER,
+	gyro INTEGER,
+	unixtime INTEGER,
+	bure INTEGER,
+	angle INTEGER,
+	typeId INTEGER,
+	totalCount INTEGER,
+	eachCount INTEGER,
+	speedPoint REAL
+);
+
+CREATE TABLE typetb(
+	typeId INTEGER,
+	typeName TEXT
+);
+
+CREATE TABLE usertb(
+	userId 	INTEGER PRIMARY KEY,
+	yearId INTEGER,
+	classId INTEGER,
+	id INTEGER,
+	name TEXT,
+	sex TEXT
+);

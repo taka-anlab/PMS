@@ -1,0 +1,12 @@
+create table usertb(
+	year_id INTEGER,
+	class_id INTEGER,
+	id INTEGER,
+	name,
+	sex,
+	userid INTEGER PRIMARY KEY
+);
+
+select * from uertb where class_id =1
+
+select datatb.* from datatb where userid.class_id =1;

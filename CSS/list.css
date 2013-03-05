@@ -1,0 +1,88 @@
+﻿table.sample{
+    border-top:1px solid #24518a;
+    border-left:1px solid #24518a;
+    border-collapse:collapse;
+    border-spacing:0;
+    background-color:#ffffff;
+    empty-cells:show;
+}
+.sample th{
+    border-right:1px solid #24518a;
+    border-bottom:1px solid #24518a;
+    color:#ffffff;
+    background-color:#143c78;
+    background-image:url(table-back.gif);
+    background-position:left top;
+    padding:0.3em 1em;
+    text-align:center;
+}
+.sample td{
+    border-right:1px solid #24518a;
+    border-bottom:1px solid #24518a;
+    padding:0.3em 1em;
+}
+
+.sample tr:nth-child(odd) {
+  background-color: #f7f7f7;
+}
+
+.sample tbody tr:hover { /* 行にマウスオーバーした時のスタイル */
+  background-color: #ccc;
+}
+
+table.top{
+    color:#ffffff;
+}
+
+body {  
+	margin-left : auto ; margin-right : auto ;
+	min-width:780px;
+} 
+ 
+div#main{
+}
+
+div#userData{
+padding-top:10px;
+padding-bottom:20px;
+border-bottom: 1px dashed gray; 
+}
+ 
+div#top {  
+	width:780px;
+	height:70px;
+	margin: 0 auto;
+	text-align: center;
+	background-image:url(./img/topBackImage.jpg);	
+}
+div#logindiv{
+    background-image:url(../../img/sub-back.jpg);
+    overflow:auto;
+    height:400px;
+    width:600px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    margin-top:-200px;
+    margin-left:-300px;
+}
+div#graphDiv{
+	width:800px;
+	height:400px;
+	display:block;
+}
+
+.buttonDiv a {
+    background: #EEE;
+    padding: 2px 10px;
+    border: 2px solid #CCC;
+    text-decoration: none;
+    color: #000!important;
+    border-radius: 3px;
+    -webkit-transition: all 0.3s ease;
+}
+.buttonDiv a:hover {        
+    border: 2px solid #06c;
+    background: #06c;
+    color: #fff!important;
+}​

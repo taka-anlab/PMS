@@ -1,0 +1,14 @@
+create table datatb(
+	userid INTEGER, 
+	acc_y, 
+	kaisu INTEGER,
+	ptime INTEGER,
+	power INTEGER,
+	gyro INTEGER,
+	jikan INTEGER,
+	burekaisu INTEGER,
+	kakudo Integer,
+	typeid Integer,
+	totalCount Integer,
+	eachCount Integer
+);

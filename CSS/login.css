@@ -1,0 +1,16 @@
+body{
+    background-image:url(../../img/back.gif);
+    margin:0px;
+    padding:0px;
+}
+div#main{
+    background-image:url(../../img/sub-back.jpg);
+    overflow:auto;
+    height:400px;
+    width:600px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    margin-top:-200px;
+    margin-left:-300px;
+}
